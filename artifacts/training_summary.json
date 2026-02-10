@@ -1,0 +1,40 @@
+{
+  "dataset_info": {
+    "total_samples": 375,
+    "training_samples": 300,
+    "validation_samples": 75,
+    "train_true_alarms": 122,
+    "train_false_alarms": 178,
+    "val_true_alarms": 31,
+    "val_false_alarms": 44
+  },
+  "training_results": {
+    "best_epoch": 12,
+    "best_val_f1": 0.7714285714285716,
+    "optimal_threshold": 0.8,
+    "final_val_metrics": {
+      "loss": 0.5579881751537323,
+      "threshold": 0.8,
+      "accuracy": 0.7866666666666666,
+      "precision": 0.8947368421052632,
+      "recall": 0.5483870967741935,
+      "specificity": 0.9545454545454546,
+      "f1": 0.6799999999999999,
+      "balanced_accuracy": 0.751466275659824,
+      "auc": 0.8313782991202346,
+      "false_alarm_rate": 0.045454545454545456,
+      "false_alarm_pct": 4.545454545454546,
+      "tp": 17,
+      "tn": 42,
+      "fp": 2,
+      "fn": 14,
+      "confusion_matrix": {
+        "tp": 17,
+        "tn": 42,
+        "fp": 2,
+        "fn": 14
+      },
+      "custom_score": 0.45038167938931295
+    }
+  }
+}
